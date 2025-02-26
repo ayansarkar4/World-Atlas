@@ -1,6 +1,7 @@
 import React from "react";
 import { FaLongArrowAltRight } from "react-icons/fa";
 import { motion } from "framer-motion";
+import { NavLink } from "react-router-dom";
 
 const Hero = () => {
   return (
@@ -24,6 +25,7 @@ const Hero = () => {
             Discover the history, culture, and beauty of every nation. Sort,
             search, and filter through countries to find the details you need.
           </p>
+          <NavLink to={"/country"}>
           <motion.button
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
@@ -31,6 +33,7 @@ const Hero = () => {
           >
             Start Exploring <FaLongArrowAltRight size={20} />
           </motion.button>
+          </NavLink>
         </motion.div>
 
         {/* Right Side (Image with Animation) */}
