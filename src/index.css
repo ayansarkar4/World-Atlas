@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+
+
+@theme {
+ 
+ 
+
+
+  --font-body: "Poppins", sans-serif;
+  --font-mono: "Fira Code", monospace;
+  --font-serif: "Merriweather", serif;
+ 
+
+  --font-display: "Inter", sans-serif;
+}
+
+
+
+body{
+  background-color: black;
+  color: white;
+}
